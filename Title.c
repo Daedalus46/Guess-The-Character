@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void border() {
     for(int i = 0 ; i<=123 ; i++){
     	printf("~");
@@ -108,7 +110,7 @@ void Title3() {
 void Disclaimer( )
 {
     printf("\n");
-    printf("    ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** \n");
+    printf("    ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** DISCLAIMER ****** \n\n");
 }
 void Rules()
 {
