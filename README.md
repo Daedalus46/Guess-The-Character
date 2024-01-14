@@ -64,7 +64,7 @@ We defined the personalities of each character in functions and made it a header
 6) Bilawal Bhutto
 7) Sheikh Rasheed
 8) Firdous Ashiq 
-9) Imran Khan)
+9) Imran Khan 
 - The game includes limited personalities. It only includes the famous politicians of Pakistan.
 - It might have errors.
 - The code is too long.
