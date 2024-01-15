@@ -12,7 +12,6 @@ void Bilawal(char ch, int count);
 void Altaf(char ch, int count);
 void Benazir(char ch, int count);
 void firdous(char ch, int count);
-
 void nawaz(char ch, int count);
 
 void nawaz(char ch, int count)
@@ -125,6 +124,8 @@ void nawaz(char ch, int count)
 										case 'y': // Nawaz Sharif Q10
 										case 'D':
 										case 'd':
+										case 'n':
+										case 'N':
 											printf("\n\t\t\t\tQuestion no %d", count);
 											printf("\n\t\t\tDoes your character look like Bhalu?\n");
 											printf("\t\t\t\t Option: ");
@@ -136,6 +137,8 @@ void nawaz(char ch, int count)
 											case 'y': // Nawaz Sharif Q11
 											case 'D':
 											case 'd':
+											case 'n':
+											case 'N':
 												printf("\n\t\t\t\tQuestion no %d", count);
 												printf("\n\t\t\tYour character got jailed?\n");
 												printf("\t\t\t\t Option: ");
@@ -180,6 +183,8 @@ void nawaz(char ch, int count)
 															case 'y': // Nawaz Sharif Q15
 															case 'D':
 															case 'd':
+															case 'n':
+															case 'N':
 																printf("\n\t\t\t\tQuestion no %d", count);
 																printf("\n\t\t\tIs your character from GO NAWAZ GO era?\n");
 																printf("\t\t\t\t Option: ");
@@ -198,144 +203,99 @@ void nawaz(char ch, int count)
 																	exit(0);
 																}
 															default: // Nawaz Sharif Q15
-																shahbaz(ch, count);
-																Altaf(ch, count);
-
-																imran_khan(ch, count);
-
-																sheikh_rasheed(ch, count);
+																nawaz(ch, count);
 
 																break;
 															}
 														default: // Nawaz Sharif Q14
-															Altaf(ch, count);
-
-															imran_khan(ch, count);
-
-															shahbaz(ch, count);
-
-															sheikh_rasheed(ch, count);
+															nawaz(ch, count);
 
 															break;
 														}
 													default: // Nawaz Sharif Q13
-														Altaf(ch, count);
-
-														imran_khan(ch, count);
-
-														shahbaz(ch, count);
-														sheikh_rasheed(ch, count);
+														nawaz(ch, count);
 
 														break;
 													}
 												default: // Nawaz Sharif Q12
-													Altaf(ch, count);
-
-													imran_khan(ch, count);
-
-													shahbaz(ch, count);
-
-													sheikh_rasheed(ch, count);
+													nawaz(ch, count);
 
 													break;
 												}
 											default: // Nawaz Sharif Q11
-												Altaf(ch, count);
-
-												imran_khan(ch, count);
-
-												shahbaz(ch, count);
-
-												sheikh_rasheed(ch, count);
+												nawaz(ch, count);
 
 												break;
 											}
 										default: // Nawaz Sharif Q10
-											imran_khan(ch, count);
-											shahbaz(ch, count);
-											Altaf(ch, count);
-
-											sheikh_rasheed(ch, count);
+											nawaz(ch, count);
 
 											break;
 										}
 									default: // Nawaz Sharif Q9
 										Altaf(ch, count);
-
-										imran_khan(ch, count);
-
-										shahbaz(ch, count);
-
 										sheikh_rasheed(ch, count);
+										imran_khan(ch, count);
+										shahbaz(ch, count);
+										nawaz(ch, count);
 
 										break;
 									}
 								default: // Nawaz Sharif Q8
-									shahbaz(ch, count);
-									imran_khan(ch, count);
-									sheikh_rasheed(ch, count);
-
-									Altaf(ch, count);
+									nawaz(ch, count);
 									break;
 								}
 							default: // Nawaz Sharif Q7
-								Altaf(ch, count);
-
-								imran_khan(ch, count);
-
-								shahbaz(ch, count);
-
-								sheikh_rasheed(ch, count);
+								nawaz(ch, count);
 
 								break;
 							}
 						default: // Nawaz Sharif Q6
-							Altaf(ch, count);
-							imran_khan(ch, count);
-							shahbaz(ch, count);
-							sheikh_rasheed(ch, count);
+							nawaz(ch, count);
 
 							break;
 						}
 					default: // Nawaz Sharif Q5
 						shahbaz(ch, count);
-						imran_khan(ch, count);
 						Altaf(ch, count);
-
 						sheikh_rasheed(ch, count);
+						imran_khan(ch, count);
+						nawaz(ch, count);
+
 						break;
 					}
 				default: // Nawaz Sharif Q4
 					shahbaz(ch, count);
-					imran_khan(ch, count);
 					Altaf(ch, count);
-
 					sheikh_rasheed(ch, count);
+					imran_khan(ch, count);
+					nawaz(ch, count);
 					break;
 				}
 			default: // Nawaz Sharif Q3
-				sheikh_rasheed(ch, count);
 				Altaf(ch, count);
-
+				sheikh_rasheed(ch, count);
 				imran_khan(ch, count);
 
-				shahbaz(ch, count);
+				nawaz(ch, count);
 
 				break;
 			}
 		default: // Nawaz Sharif Q2
 			Altaf(ch, count);
 
+			sheikh_rasheed(ch, count);
 			imran_khan(ch, count);
 
 			shahbaz(ch, count);
+			nawaz(ch, count);
 
-			sheikh_rasheed(ch, count);
 			break;
 		}
 		// Nawaz Sharif Q1
 	default:
 		Bilawal(ch, count);
+		nawaz(ch, count);
 
 		break;
 	}
@@ -1484,7 +1444,7 @@ void imran_khan(char ch, int count)
 					case 'y':
 					case 'D':
 					case 'd':
-					
+
 						printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q6
 						printf("\t\t\tDo you think ur character is loyal?\n");
 						printf("\t\t\t\t Option: ");
@@ -1497,7 +1457,7 @@ void imran_khan(char ch, int count)
 						case 'D':
 						case 'd':
 						case 'n':
-					case 'N':
+						case 'N':
 							printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q7
 							printf("\t\t\tkiya ap ghabra to nhi rahe?\n");
 							printf("\t\t\t\t Option: ");
@@ -1525,7 +1485,7 @@ void imran_khan(char ch, int count)
 								case 'D':
 								case 'd':
 								case 'n':
-							case 'N':
+								case 'N':
 									printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q9
 									printf("\t\t\tDoes your character started a charity project?\n");
 									printf("\t\t\t\t Option: ");
@@ -1597,7 +1557,7 @@ void imran_khan(char ch, int count)
 														case 'D':
 														case 'd':
 														case 'n':
-															case 'N':
+														case 'N':
 
 															printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q15
 															printf("\t\t\tDid he fell from stage?\n");
@@ -1677,18 +1637,18 @@ void imran_khan(char ch, int count)
 					}
 				default: // imran khan Q5
 					sheikh_rasheed(ch, count)
-					shahbaz(ch, count);
+						shahbaz(ch, count);
 					imran_khan(ch, count);
 					break;
 				}
 			default: // imran khan Q4
 				shahbaz(ch, count);
 				imran_khan(ch, count);
-				
+
 				break;
 			}
 		default: // imran khan Q3
-			
+
 			Altaf(ch, count);
 			sheikh_rasheed(ch, count);
 			break;
@@ -1946,7 +1906,7 @@ void shahbaz(char ch, int count)
 			sheikh_rasheed(ch, count);
 			imran_khan(ch, count);
 			shahbaz(ch, count);
-			
+
 			break;
 		}
 	default: // Q02

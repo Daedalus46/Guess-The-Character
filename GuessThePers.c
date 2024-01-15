@@ -44,7 +44,7 @@ void Start_the_Game()
 			case 'Y':
 			case 'y':
 				nawaz(ch, count);
-			break;
+				break;
 			default:
 				firdous(ch, count);
 				maryam(ch, count);
@@ -82,7 +82,7 @@ int main()
 	Disclaimer();
 	Rules();
 	border();
-	//	limitations();
+	limitations();
 	border();
 	Start_the_Game();
 }
