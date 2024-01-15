@@ -1636,7 +1636,7 @@ void imran_khan(char ch, int count)
 						break;
 					}
 				default: // imran khan Q5
-					sheikh_rasheed(ch, count)
+					sheikh_rasheed(ch, count);
 						shahbaz(ch, count);
 					imran_khan(ch, count);
 					break;
