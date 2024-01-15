@@ -21,11 +21,11 @@ void Start_the_Game()
 	{
 	case 'Y':
 	case 'y':
-		printf("\nNOTE! TO ANSWER THE QUESTIONS YOU HAVE TO ENTER :\n");
+		printf("\n\tNOTE! TO ANSWER THE QUESTIONS YOU HAVE TO ENTER :\n");
 		printf("\n\t'Y' for YES :\n");
 		printf("\t'N' for NO :\n");
 		printf("\t'D' for Don't Know :\n");
-		printf("\nPress Y/y to continue.");
+		printf("\n\tPress Y/y to continue.");
 		printf("\n\tOption: ");
 		// Read the user's input for the second question
 		scanf(" %c", &ch);
@@ -34,18 +34,18 @@ void Start_the_Game()
 		{
 		case 'Y':
 		case 'y':
-			printf("\n\tQuestion no %d", count);
-			printf("\nIs your charchter male ?\n");
-			printf("\t Option: ");
+			printf("\n\t\t\t\tQuestion no %d", count);
+			printf("\n\t\t\tIs your charchter male ?\n");
+			printf("\t\t\t\t Option: ");
 			scanf(" %c", &ch);
 			count++;
 			switch (ch)
 			{
 			case 'Y':
 			case 'y':
-				printf("\n\tQuestion no %d", count);
-				printf("\nIs your character currently in Pakistan?\n");
-				printf("\t Option: ");
+				printf("\n\t\t\t\tQuestion no %d", count);
+				printf("\n\t\t\tdoes your character belongs from Punjab?\n");
+				printf("\t\t\t\t Option: ");
 				scanf(" %c", &ch);
 				count++;
 				switch (ch)
@@ -54,9 +54,9 @@ void Start_the_Game()
 				case 'y': // Nawaz Sharif Q1
 				case 'D':
 				case 'd':
-					printf("\n\tQuestion no %d", count);
-					printf("\nIs your character over 50 years?\n");
-					printf("\t Option: ");
+					printf("\n\t\t\t\tQuestion no %d", count);
+					printf("\n\t\t\tIs your character over 50 years?\n");
+					printf("\t\t\t\t Option: ");
 					scanf(" %c", &ch);
 					count++;
 					switch (ch)
@@ -65,9 +65,9 @@ void Start_the_Game()
 					case 'y':
 					case 'D':
 					case 'd': // Nawaz Sharif Q2
-						printf("\n\tQuestion no %d", count);
-						printf("\nDoes your character have famous  brother?\n");
-						printf("\t Option: ");
+						printf("\n\t\t\t\tQuestion no %d", count);
+						printf("\n\t\t\tDoes your character have famous  brother?\n");
+						printf("\t\t\t\t Option: ");
 						scanf(" %c", &ch);
 						count++;
 						switch (ch)
@@ -76,9 +76,9 @@ void Start_the_Game()
 						case 'y':
 						case 'D':
 						case 'd': // Nawaz Sharif Q3
-							printf("\n\tQuestion no %d", count);
-							printf("\nDoes your character have famous  Daughter?\n");
-							printf("\t Option: ");
+							printf("\n\t\t\t\tQuestion no %d", count);
+							printf("\n\t\tDoes your character have famous  Daughter?\n");
+							printf("\t\t\t\t Option: ");
 							scanf(" %c", &ch);
 							count++;
 							switch (ch)
@@ -86,9 +86,9 @@ void Start_the_Game()
 							case 'Y':
 							case 'y':
 								// Nawaz Sharif Q4
-								printf("\n\tQuestion no %d", count);
-								printf("\nDoes your character's Daughter politician?\n");
-								printf("\t Option: ");
+								printf("\n\t\t\t\tQuestion no %d", count);
+								printf("\n\t\t\tDoes your character's Daughter politician?\n");
+								printf("\t\t\t\t Option: ");
 								scanf(" %c", &ch);
 								count++;
 								switch (ch)
@@ -96,9 +96,9 @@ void Start_the_Game()
 								case 'Y':
 								case 'y': // Nawaz Sharif Q5
 
-									printf("\n\tQuestion no %d", count);
-									printf("\nDoes your character introduced Projects?\n");
-									printf("\t Option: ");
+									printf("\n\t\t\t\tQuestion no %d", count);
+									printf("\n\t\t\tDoes your character introduced Projects?\n");
+									printf("\t\t\t\t Option: ");
 									scanf(" %c", &ch);
 									count++;
 									switch (ch)
@@ -107,9 +107,9 @@ void Start_the_Game()
 									case 'y': // Nawaz Sharif Q6
 									case 'D':
 									case 'd':
-										printf("\n\tQuestion no %d", count);
-										printf("\nDid your character got hit with a shoe?\n");
-										printf("\t Option: ");
+										printf("\n\t\t\t\tQuestion no %d", count);
+										printf("\n\t\t\tDid your character got hit with a shoe?\n");
+										printf("\t\t\t\t Option: ");
 										scanf(" %c", &ch);
 										count++;
 										switch (ch)
@@ -118,9 +118,9 @@ void Start_the_Game()
 										case 'y':
 										case 'D':
 										case 'd': // Nawaz Sharif Q7
-											printf("\n\tQuestion no %d", count);
-											printf("\nDid your character become PM more than 1 times?\n");
-											printf("\t Option: ");
+											printf("\n\t\t\t\tQuestion no %d", count);
+											printf("\n\t\t\tDid your character become PM more than 1 times?\n");
+											printf("\t\t\t\t Option: ");
 											scanf(" %c", &ch);
 											count++;
 											switch (ch)
@@ -129,9 +129,9 @@ void Start_the_Game()
 											case 'y':
 											case 'D':
 											case 'd': // Nawaz Sharif Q8
-												printf("\n\tQuestion no %d", count);
-												printf("\nIs your character half bald?\n");
-												printf("\t Option: ");
+												printf("\n\t\t\t\tQuestion no %d", count);
+												printf("\n\t\t\tIs your character half bald?\n");
+												printf("\t\t\t\t Option: ");
 												scanf(" %c", &ch);
 												count++;
 												switch (ch)
@@ -140,9 +140,9 @@ void Start_the_Game()
 												case 'y':
 												case 'D':
 												case 'd': // Nawaz Sharif Q9
-													printf("\n\tQuestion no %d", count);
-													printf("\nDoes he have a palace??\n");
-													printf("\t Option: ");
+													printf("\n\t\t\t\tQuestion no %d", count);
+													printf("\n\t\t\tDoes he have a palace??\n");
+													printf("\t\t\t\t Option: ");
 													scanf(" %c", &ch);
 													count++;
 													switch (ch)
@@ -151,9 +151,9 @@ void Start_the_Game()
 													case 'y': // Nawaz Sharif Q10
 													case 'D':
 													case 'd':
-														printf("\n\tQuestion no %d", count);
-														printf("\nDoes your character look like Bhalu?\n");
-														printf("\t Option: ");
+														printf("\n\t\t\t\tQuestion no %d", count);
+														printf("\n\t\t\tDoes your character look like Bhalu?\n");
+														printf("\t\t\t\t Option: ");
 														scanf(" %c", &ch);
 														count++;
 														switch (ch)
@@ -162,9 +162,9 @@ void Start_the_Game()
 														case 'y': // Nawaz Sharif Q11
 														case 'D':
 														case 'd':
-															printf("\n\tQuestion no %d", count);
-															printf("\nYour character got jailed?\n");
-															printf("\t Option: ");
+															printf("\n\t\t\t\tQuestion no %d", count);
+															printf("\n\t\t\tYour character got jailed?\n");
+															printf("\t\t\t\t Option: ");
 															scanf(" %c", &ch);
 															count++;
 															switch (ch)
@@ -173,9 +173,9 @@ void Start_the_Game()
 															case 'y':
 															case 'D':
 															case 'd': // Nawaz Sharif Q12
-																printf("\n\tQuestion no %d", count);
-																printf("\nDoes your character went for the medical abroad?\n");
-																printf("\t Option: ");
+																printf("\n\t\t\t\tQuestion no %d", count);
+																printf("\n\t\t\tDoes your character went for the medical abroad?\n");
+																printf("\t\t\t\t Option: ");
 																scanf(" %c", &ch);
 																count++;
 																switch (ch)
@@ -184,9 +184,9 @@ void Start_the_Game()
 																case 'y':
 																case 'D':
 																case 'd': // Nawaz Sharif Q13
-																	printf("\n\tQuestion no %d", count);
-																	printf("\nDid your character ran from the country?\n");
-																	printf("\t Option: ");
+																	printf("\n\t\t\t\tQuestion no %d", count);
+																	printf("\n\t\t\tDid your character ran from the country?\n");
+																	printf("\t\t\t\t Option: ");
 																	scanf(" %c", &ch);
 																	count++;
 																	switch (ch)
@@ -195,9 +195,9 @@ void Start_the_Game()
 																	case 'y':
 																	case 'D':
 																	case 'd': // Nawaz Sharif Q14
-																		printf("\n\tQuestion no %d", count);
-																		printf("\nIs your character's wife alive?\n");
-																		printf("\t Option: ");
+																		printf("\n\t\t\t\tQuestion no %d", count);
+																		printf("\n\t\t\tIs your character's wife alive?\n");
+																		printf("\t\t\t\t Option: ");
 																		scanf(" %c", &ch);
 																		count++;
 																		switch (ch)
@@ -206,9 +206,9 @@ void Start_the_Game()
 																		case 'y': // Nawaz Sharif Q15
 																		case 'D':
 																		case 'd':
-																			printf("\n\tQuestion no %d", count);
-																			printf("\nIs your character from GO NAWAZ GO era?\n");
-																			printf("\t Option: ");
+																			printf("\n\t\t\t\tQuestion no %d", count);
+																			printf("\n\t\t\tIs your character from GO NAWAZ GO era?\n");
+																			printf("\t\t\t\t Option: ");
 																			scanf(" %c", &ch);
 																			count++;
 																			switch (ch)
@@ -217,9 +217,9 @@ void Start_the_Game()
 																			case 'y':
 																			case 'D':
 																			case 'd':
-																				printf("\nYour character is the one and only nawaz shariff!\n");
-																				printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
-																			//	PlaySound(TEXT("C:\\Users\\glowi\\Desktop\\FIT\\New folder\\Guess-The-Character\\nawaz.wav"), NULL, SND_ASYNC);
+																				printf("\n\t\t\t\tYour character is the one and only nawaz shariff!\n");
+																				printf("\n\t\t\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
+																			//	PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\Audios\\nawaz.wav"), NULL, SND_ASYNC);
 																				system("pause");
 																				exit(0);
 																			}
@@ -282,11 +282,10 @@ void Start_the_Game()
 															break;
 														}
 													default: // Nawaz Sharif Q10
+														imran_khan(ch, count);
+														shahbaz(ch, count);
 														Altaf(ch, count);
 
-														imran_khan(ch, count);
-
-														shahbaz(ch, count);
 
 														sheikh_rasheed(ch, count);
 
@@ -306,15 +305,11 @@ void Start_the_Game()
 													break;
 												}
 											default: // Nawaz Sharif Q8
-												Altaf(ch, count);
-
-												imran_khan(ch, count);
-
 												shahbaz(ch, count);
-
+												imran_khan(ch, count);
 												sheikh_rasheed(ch, count);
-
 												Bilawal(ch, count);
+												Altaf(ch, count);
 												break;
 											}
 										default: // Nawaz Sharif Q7
@@ -354,13 +349,13 @@ void Start_the_Game()
 								break;
 							}
 						default: // Nawaz Sharif Q3
+							sheikh_rasheed(ch, count);
 							Altaf(ch, count);
 
 							imran_khan(ch, count);
 
-							shahbaz(ch, count);
 
-							sheikh_rasheed(ch, count);
+							shahbaz(ch, count);
 
 							Bilawal(ch, count);
 							break;
@@ -379,15 +374,14 @@ void Start_the_Game()
 					}
 					// Nawaz Sharif Q1
 				default:
+					Altaf(ch, count);
+					imran_khan(ch, count);
+					sheikh_rasheed(ch, count);
 					Bilawal(ch, count);
 
-					Altaf(ch, count);
-
-					imran_khan(ch, count);
 
 					shahbaz(ch, count);
 
-					sheikh_rasheed(ch, count);
 					break;
 				}
 			default:
@@ -424,29 +418,20 @@ void Start_the_Game()
 
 int main()
 {
-	while (1)
-	{
-		PlaySound(TEXT("C:\\Users\\glowi\\Desktop\\FIT\\New folder\\Guess-The-Character\\akinator_theme (1).wav"), NULL, SND_ASYNC);
-		system("clrscr");
+		//PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\akinator_theme (1).wav"), NULL, SND_ASYNC);
+		// system("clrscr");
 		system("color F0");
 		border();
 		Title();
 		Title2();
 		Title3();
+		border();
 		Disclaimer();
 		Rules();
+		border();
+	//	limitations();
+		border();
 		Start_the_Game();
-		char o;
-		Printf(" If you want to play again \n Press '1' to continue \nPress 'Q' to Quit ");
-		scanf("%c", &o);
-		if (o == 1)
-		{
-			continue;
-		}
-		else
-		{
-			break;
-		}
-		return 0;
-	}
+		
+
 }
