@@ -219,7 +219,7 @@ void Start_the_Game()
 																			case 'd':
 																				printf("\nYour character is the one and only nawaz shariff!\n");
 																				printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
-																				PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\Audios\\nawaz.wav"), NULL, SND_ASYNC);
+																			//	PlaySound(TEXT("C:\\Users\\glowi\\Desktop\\FIT\\New folder\\Guess-The-Character\\nawaz.wav"), NULL, SND_ASYNC);
 																				system("pause");
 																				exit(0);
 																			}
@@ -426,7 +426,7 @@ int main()
 {
 	while (1)
 	{
-		PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\Audios\\akinator_theme (1).wav"), NULL, SND_ASYNC);
+		PlaySound(TEXT("C:\\Users\\glowi\\Desktop\\FIT\\New folder\\Guess-The-Character\\akinator_theme (1).wav"), NULL, SND_ASYNC);
 		system("clrscr");
 		system("color F0");
 		border();
