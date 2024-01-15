@@ -1186,123 +1186,63 @@ void Bilawal(char ch, int count)
 																}
 															default: // bilawal bhutto Q16
 																Bilawal(ch, count);
-																Altaf(ch, count);
-																imran_khan(ch, count);
-																shahbaz(ch, count);
-																sheikh_rasheed(ch, count);
 																break;
 															}
 														default: // bilawal bhutto Q15
 															Bilawal(ch, count);
-															Altaf(ch, count);
-															imran_khan(ch, count);
-															shahbaz(ch, count);
-															sheikh_rasheed(ch, count);
 															break;
 														}
 													default: // bilawal bhutto Q14
 														Bilawal(ch, count);
-														Altaf(ch, count);
-														imran_khan(ch, count);
-														shahbaz(ch, count);
-														sheikh_rasheed(ch, count);
 														break;
 													}
 												default: // bilawal bhutto Q13
 													Bilawal(ch, count);
-													Altaf(ch, count);
-													imran_khan(ch, count);
-													shahbaz(ch, count);
-													sheikh_rasheed(ch, count);
 													break;
 												}
 											default: // bilawal bhutto Q12
 												Bilawal(ch, count);
-												Altaf(ch, count);
-												imran_khan(ch, count);
-												shahbaz(ch, count);
-												sheikh_rasheed(ch, count);
 												break;
 											}
 										default: // bilawal bhutto Q11
 											Bilawal(ch, count);
-											Altaf(ch, count);
-											imran_khan(ch, count);
-											shahbaz(ch, count);
-											sheikh_rasheed(ch, count);
 											break;
 										}
 									default: // bilawal bhutto Q10
 										Bilawal(ch, count);
-										Altaf(ch, count);
-										imran_khan(ch, count);
-										shahbaz(ch, count);
-										sheikh_rasheed(ch, count);
 										break;
 									}
 								default: // bilawal bhutto Q9
 									Bilawal(ch, count);
-									Altaf(ch, count);
-									imran_khan(ch, count);
-									shahbaz(ch, count);
-									sheikh_rasheed(ch, count);
 									break;
 								}
 							default: // bilawal bhutto Q8
 								Bilawal(ch, count);
-								Altaf(ch, count);
-								imran_khan(ch, count);
-								shahbaz(ch, count);
-								sheikh_rasheed(ch, count);
 								break;
 							}
 						default: // bilawal bhutto Q7
 							Bilawal(ch, count);
-							Altaf(ch, count);
-							imran_khan(ch, count);
-							shahbaz(ch, count);
-							sheikh_rasheed(ch, count);
 							break;
 						}
 					default: // bilawal bhutto Q6
 						Bilawal(ch, count);
-						Altaf(ch, count);
-						imran_khan(ch, count);
-						shahbaz(ch, count);
-						sheikh_rasheed(ch, count);
 						break;
 					}
 				default: // bilawal bhutto Q5
 					Bilawal(ch, count);
-					Altaf(ch, count);
-					imran_khan(ch, count);
-					shahbaz(ch, count);
-					sheikh_rasheed(ch, count);
 					break;
 				}
 			default: // bilawal bhutto Q4
-				Bilawal(ch, count);
-				Altaf(ch, count);
-				imran_khan(ch, count);
-				shahbaz(ch, count);
-				sheikh_rasheed(ch, count);
+			Bilawal(ch, count);
 				break;
 			}
 		default: // bilawal bhutto Q3
-			sheikh_rasheed(ch, count);
-			shahbaz(ch, count);
 			Bilawal(ch, count);
-			Altaf(ch, count);
-			imran_khan(ch, count);
-			Altaf(ch, count);
 			break;
 		}
 	default: // bilawal bhutto Q2
 		Bilawal(ch, count);
-		Altaf(ch, count);
-		imran_khan(ch, count);
-		shahbaz(ch, count);
-		sheikh_rasheed(ch, count);
+		
 		break;
 	}
 }
