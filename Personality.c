@@ -1484,6 +1484,7 @@ void imran_khan(char ch, int count)
 					case 'y':
 					case 'D':
 					case 'd':
+					
 						printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q6
 						printf("\t\t\tDo you think ur character is loyal?\n");
 						printf("\t\t\t\t Option: ");
@@ -1495,6 +1496,8 @@ void imran_khan(char ch, int count)
 						case 'y':
 						case 'D':
 						case 'd':
+						case 'n':
+					case 'N':
 							printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q7
 							printf("\t\t\tkiya ap ghabra to nhi rahe?\n");
 							printf("\t\t\t\t Option: ");
@@ -1521,6 +1524,8 @@ void imran_khan(char ch, int count)
 								case 'y':
 								case 'D':
 								case 'd':
+								case 'n':
+							case 'N':
 									printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q9
 									printf("\t\t\tDoes your character started a charity project?\n");
 									printf("\t\t\t\t Option: ");
@@ -1591,6 +1596,8 @@ void imran_khan(char ch, int count)
 														case 'y':
 														case 'D':
 														case 'd':
+														case 'n':
+															case 'N':
 
 															printf("\n\t\t\t\tQuestion no %d\n", count); // imran khan Q15
 															printf("\t\t\tDid he fell from stage?\n");
@@ -1625,123 +1632,70 @@ void imran_khan(char ch, int count)
 																	exit(0);
 																}
 															default: // imran khan Q16
-																Bilawal(ch, count);
-																Altaf(ch, count);
 																imran_khan(ch, count);
-																shahbaz(ch, count);
-																sheikh_rasheed(ch, count);
 																break;
 															}
 														default: // imran khan Q15
-															Bilawal(ch, count);
-															Altaf(ch, count);
 															imran_khan(ch, count);
-															shahbaz(ch, count);
-															sheikh_rasheed(ch, count);
 															break;
 														}
 													default: // imran khan Q14
-														Bilawal(ch, count);
-														Altaf(ch, count);
 														imran_khan(ch, count);
-														shahbaz(ch, count);
-														sheikh_rasheed(ch, count);
 														break;
 													}
 												default: // imran khan Q13
-													Bilawal(ch, count);
-													Altaf(ch, count);
 													imran_khan(ch, count);
-													shahbaz(ch, count);
-													sheikh_rasheed(ch, count);
 													break;
 												}
 											default: // imran khan Q12
-												Bilawal(ch, count);
-												Altaf(ch, count);
 												imran_khan(ch, count);
-												shahbaz(ch, count);
-												sheikh_rasheed(ch, count);
 												break;
 											}
 										default: // imran khan Q11
-											Bilawal(ch, count);
-											Altaf(ch, count);
 											imran_khan(ch, count);
-											shahbaz(ch, count);
-											sheikh_rasheed(ch, count);
 											break;
 										}
 									default: // imran khan Q10
-										Bilawal(ch, count);
-										Altaf(ch, count);
 										imran_khan(ch, count);
-										shahbaz(ch, count);
-										sheikh_rasheed(ch, count);
 										break;
 									}
 								default: // imran khan Q9
-									Bilawal(ch, count);
-									Altaf(ch, count);
 									imran_khan(ch, count);
-									shahbaz(ch, count);
-									sheikh_rasheed(ch, count);
 									break;
 								}
 							default: // imran khan Q8
-								Bilawal(ch, count);
-								Altaf(ch, count);
 								imran_khan(ch, count);
-								shahbaz(ch, count);
-								sheikh_rasheed(ch, count);
 								break;
 							}
 						default: // imran khan Q7
-							Bilawal(ch, count);
-							Altaf(ch, count);
 							imran_khan(ch, count);
-							shahbaz(ch, count);
-							sheikh_rasheed(ch, count);
 							break;
 						}
 					default: // imran khan Q6
-						Bilawal(ch, count);
-						Altaf(ch, count);
 						imran_khan(ch, count);
-						shahbaz(ch, count);
-						sheikh_rasheed(ch, count);
 						break;
 					}
 				default: // imran khan Q5
-					Bilawal(ch, count);
-					Altaf(ch, count);
-					imran_khan(ch, count);
+					sheikh_rasheed(ch, count)
 					shahbaz(ch, count);
-					sheikh_rasheed(ch, count);
+					imran_khan(ch, count);
 					break;
 				}
 			default: // imran khan Q4
 				shahbaz(ch, count);
-				Bilawal(ch, count);
-				Altaf(ch, count);
 				imran_khan(ch, count);
-				sheikh_rasheed(ch, count);
+				
 				break;
 			}
 		default: // imran khan Q3
-			Bilawal(ch, count);
+			
 			Altaf(ch, count);
-			imran_khan(ch, count);
-			shahbaz(ch, count);
 			sheikh_rasheed(ch, count);
 			break;
 		}
 	default: // imran khan Q2
 		Bilawal(ch, count);
-		Altaf(ch, count);
 		imran_khan(ch, count);
-		shahbaz(ch, count);
-		sheikh_rasheed(ch, count);
 		break;
 	}
 } // imran khan End
