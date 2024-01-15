@@ -176,82 +176,68 @@ void maryam(char ch, int count)
 															exit(0);
 														}
 													default: // maryam nawaz Q14
-														firdous(ch, count);
-														Benazir(ch, count);
 														maryam(ch, count);
+		firdous(ch, count);
 														break;
 													}
 												default: // maryam nawaz Q13
-													firdous(ch, count);
-													Benazir(ch, count);
 													maryam(ch, count);
+		firdous(ch, count);
 													break;
 												}
 											default: // maryam nawaz Q12
-												firdous(ch, count);
-												Benazir(ch, count);
 												maryam(ch, count);
+		firdous(ch, count);
 												break;
 											}
 										default: // maryam nawaz Q11
-											firdous(ch, count);
-											Benazir(ch, count);
 											maryam(ch, count);
+		firdous(ch, count);
 											break;
 										}
 									default: // maryam nawaz Q10
-										firdous(ch, count);
-
-										Benazir(ch, count);
 										maryam(ch, count);
+		firdous(ch, count);
 										break;
 									}
 								default: // maryam nawaz Q9
-									firdous(ch, count);
-									Benazir(ch, count);
 									maryam(ch, count);
+		firdous(ch, count);
 									break;
 								}
 							default: // maryam nawaz Q8
-								firdous(ch, count);
-								Benazir(ch, count);
 								maryam(ch, count);
+		firdous(ch, count);
 								break;
 							}
 						default: // maryam nawaz Q7
-							firdous(ch, count);
-							Benazir(ch, count);
 							maryam(ch, count);
+		firdous(ch, count);
 							break;
 						}
 					default: // maryam nawaz Q6
-						firdous(ch, count);
-						Benazir(ch, count);
 						maryam(ch, count);
+		firdous(ch, count);
 						break;
 					}
 				default: // maryam nawaz Q5
-					firdous(ch, count);
-					Benazir(ch, count);
 					maryam(ch, count);
+		firdous(ch, count);
 					break;
 				}
 			default: // maryam nawaz Q4
-				firdous(ch, count);
-				Benazir(ch, count);
 				maryam(ch, count);
+		firdous(ch, count);
 				break;
 			}
 		default: // maryam nawaz Q3
-			firdous(ch, count);
-			Benazir(ch, count);
 			maryam(ch, count);
+		firdous(ch, count);
 			break;
 		}
 	default: // maryam nawaz Q2
-		firdous(ch, count);
-		Benazir(ch, count);
 		maryam(ch, count);
+		firdous(ch, count);
 		break;
 	}
 }
@@ -539,6 +525,8 @@ void Benazir(char ch, int count)
 	case 'y':
 	case 'D':
 	case 'd':
+	case 'N':
+								case 'n':
 		printf("\n\t\t\t\tQuestion no %d\n", count);
 		printf("\t\t\tWas this person associated with a prominent political family in Pakistan?\n");
 		printf("\t\t\t\t Option: ");
@@ -550,8 +538,11 @@ void Benazir(char ch, int count)
 		case 'y':
 		case 'D':
 		case 'd':
+		case 'N':
+
+								case 'n':
 			printf("\n\t\t\t\tQuestion no %d\n", count);
-			printf("\t\t\tDid she attend Harvard University for her education?\n");
+			printf("\t\t\tDid she attend Harvard University and Oxford Uni for her education?\n");
 			printf("\t\t\t\t Option: ");
 			scanf(" %c", &ch);
 			count++;
@@ -561,6 +552,8 @@ void Benazir(char ch, int count)
 			case 'y':
 			case 'D':
 			case 'd':
+			case 'N':
+								case 'n':
 				printf("\n\t\t\t\tQuestion no %d\n", count);
 				printf("\t\t\tWas your character married?\n");
 				printf("\t\t\t\t Option: ");
@@ -572,6 +565,8 @@ void Benazir(char ch, int count)
 				case 'y':
 				case 'D':
 				case 'd':
+				case 'N':
+								case 'n':
 					printf("\n\t\t\t\tQuestion no %d\n", count);
 					printf("\t\t\tDid her political career involve periods of exile?\n");
 					printf("\t\t\t\t Option: ");
@@ -583,6 +578,8 @@ void Benazir(char ch, int count)
 					case 'y':
 					case 'D':
 					case 'd':
+					case 'N':
+								case 'n':
 						printf("\n\t\t\t\tQuestion no %d\n", count);
 						printf("\t\t\tWas she the first woman to lead a Muslim-majority country?\n");
 						printf("\t\t\t\t Option: ");
@@ -594,6 +591,8 @@ void Benazir(char ch, int count)
 						case 'y':
 						case 'D':
 						case 'd':
+						case 'N':
+								case 'n':
 							printf("\n\t\t\t\tQuestion no %d\n", count);
 							printf("\t\t\tDid this person serve as the Prime Minister of Pakistan??\n");
 							printf("\t\t\t\t Option: ");
@@ -605,6 +604,8 @@ void Benazir(char ch, int count)
 							case 'y':
 							case 'D':
 							case 'd':
+							case 'N':
+								case 'n':
 								printf("\n\t\t\t\tQuestion no %d\n", count);
 								printf("\t\t\tWas she known for her efforts in promoting women's rights in her country?\n");
 								printf("\t\t\t\t Option: ");
@@ -616,6 +617,8 @@ void Benazir(char ch, int count)
 								case 'y':
 								case 'D':
 								case 'd':
+								case 'N':
+								case 'n':
 									printf("\n\t\t\t\tQuestion no %d\n", count);
 									printf("\t\t\tDid she write an autobiography sharing her experiences in politics?\n");
 									printf("\t\t\t\t Option: ");
@@ -627,6 +630,8 @@ void Benazir(char ch, int count)
 									case 'y':
 									case 'D':
 									case 'd':
+									case 'N':
+									case 'n':
 										printf("\n\t\t\t\tQuestion no %d\n", count);
 										printf("\t\t\tDid her life end tragically due to a political incident?\n");
 										printf("\t\t\t\t Option: ");
@@ -638,71 +643,62 @@ void Benazir(char ch, int count)
 										case 'y':
 										case 'D':
 										case 'd':
+										case 'N':
+										case 'n':
 											printf("\n\t\t\tYour character is the 1st women PM of Pakistan Benzair Bhutto!\n");
 											system("pause");
 											exit(0);
 										}
 									default: // benazir bhutto Q10
-										maryam(ch, count);
-										firdous(ch, count);
+										Benazir(ch, count);
 
 										break;
 									}
 								default: // // benazir bhutto Q9
-									maryam(ch, count);
-									firdous(ch, count);
-
+									Benazir(ch, count);
 									break;
-									break;
+									
 								}
 							default: // benazir Q8
-								maryam(ch, count);
-								firdous(ch, count);
+								Benazir(ch, count);
 
 								break;
-								break;
+							
 							}
 						default: // benazir Q7
-							maryam(ch, count);
-							firdous(ch, count);
-
+							Benazir(ch, count);
 							break;
-							break;
+							
 						}
 					default: // benazir Q6
-						maryam(ch, count);
-						firdous(ch, count);
+						Benazir(ch, count);
 
 						break;
-						break;
+						
 					}
 				default: // benazir Q5
-					maryam(ch, count);
-					firdous(ch, count);
+					Benazir(ch, count);
 
 					break;
-					break;
+					
 				}
 			default: // benazir Q4
-				maryam(ch, count);
-				firdous(ch, count);
+				Benazir(ch, count);
 
 				break;
-				break;
+			
 			}
 		default: // benazir Q3
-			maryam(ch, count);
-			firdous(ch, count);
+			Benazir(ch, count);
 
 			break;
-			break;
+		
 		}
 	default: // benazir Q2
-		maryam(ch, count);
-		firdous(ch, count);
+		Benazir(ch, count);
 
 		break;
-		break;
+		
 	}
 } // function end
 void Bilawal(char ch, int count)
@@ -1149,49 +1145,42 @@ void firdous(char ch, int count)
 										}
 									default: // firdous ashiq Q10
 										maryam(ch, count);
-										Benazir(ch, count);
 										firdous(ch, count);
-										break;
+										
 										break;
 									}
 
 								default: // firdous ashiq Q9
 									maryam(ch, count);
-									Benazir(ch, count);
 									firdous(ch, count);
 									break;
 								}
 
 							default: // firdous ashiq Q8
 								maryam(ch, count);
-								Benazir(ch, count);
 								firdous(ch, count);
 								break;
 							}
 
 						default: // firdous ashiq Q7
 							maryam(ch, count);
-							Benazir(ch, count);
 							firdous(ch, count);
 							break;
 						}
 
 					default: // firdous ashiq Q6
 						maryam(ch, count);
-						Benazir(ch, count);
 						firdous(ch, count);
 						break;
 					}
 				default: // firdous ashiq Q5
 					maryam(ch, count);
-					Benazir(ch, count);
 					firdous(ch, count);
 					break;
 				}
 
 			default: // firdous ashiq Q4
 				maryam(ch, count);
-				Benazir(ch, count);
 				firdous(ch, count);
 				break;
 			}
@@ -1209,12 +1198,12 @@ void firdous(char ch, int count)
 			case 'D':
 			case 'd':
 				maryam(ch, count);
-				Benazir(ch, count);
-				firdous(ch, count);
+				
+				
 			default:
 				Benazir(ch, count);
-				maryam(ch, count);
-				firdous(ch, count);
+				
+
 				break;
 			}
 			break;
@@ -1223,7 +1212,6 @@ void firdous(char ch, int count)
 	default: // firdous ashiq Q2
 		maryam(ch, count);
 		Benazir(ch, count);
-		firdous(ch, count);
 		break;
 	}
 }
