@@ -205,7 +205,6 @@ void nawaz(char ch, int count)
 
 																sheikh_rasheed(ch, count);
 
-															
 																break;
 															}
 														default: // Nawaz Sharif Q14
@@ -217,7 +216,6 @@ void nawaz(char ch, int count)
 
 															sheikh_rasheed(ch, count);
 
-															
 															break;
 														}
 													default: // Nawaz Sharif Q13
@@ -228,7 +226,6 @@ void nawaz(char ch, int count)
 														shahbaz(ch, count);
 														sheikh_rasheed(ch, count);
 
-														
 														break;
 													}
 												default: // Nawaz Sharif Q12
@@ -240,7 +237,6 @@ void nawaz(char ch, int count)
 
 													sheikh_rasheed(ch, count);
 
-													
 													break;
 												}
 											default: // Nawaz Sharif Q11
@@ -252,7 +248,6 @@ void nawaz(char ch, int count)
 
 												sheikh_rasheed(ch, count);
 
-												
 												break;
 											}
 										default: // Nawaz Sharif Q10
@@ -262,7 +257,6 @@ void nawaz(char ch, int count)
 
 											sheikh_rasheed(ch, count);
 
-										
 											break;
 										}
 									default: // Nawaz Sharif Q9
@@ -274,14 +268,13 @@ void nawaz(char ch, int count)
 
 										sheikh_rasheed(ch, count);
 
-									
 										break;
 									}
 								default: // Nawaz Sharif Q8
 									shahbaz(ch, count);
 									imran_khan(ch, count);
 									sheikh_rasheed(ch, count);
-								
+
 									Altaf(ch, count);
 									break;
 								}
@@ -294,7 +287,6 @@ void nawaz(char ch, int count)
 
 								sheikh_rasheed(ch, count);
 
-							
 								break;
 							}
 						default: // Nawaz Sharif Q6
@@ -302,14 +294,14 @@ void nawaz(char ch, int count)
 							imran_khan(ch, count);
 							shahbaz(ch, count);
 							sheikh_rasheed(ch, count);
-						
+
 							break;
 						}
 					default: // Nawaz Sharif Q5
 						shahbaz(ch, count);
 						imran_khan(ch, count);
 						Altaf(ch, count);
-					
+
 						sheikh_rasheed(ch, count);
 						break;
 					}
@@ -317,7 +309,7 @@ void nawaz(char ch, int count)
 					shahbaz(ch, count);
 					imran_khan(ch, count);
 					Altaf(ch, count);
-				
+
 					sheikh_rasheed(ch, count);
 					break;
 				}
@@ -329,7 +321,6 @@ void nawaz(char ch, int count)
 
 				shahbaz(ch, count);
 
-	
 				break;
 			}
 		default: // Nawaz Sharif Q2
@@ -799,7 +790,7 @@ void Altaf(char ch, int count)
 	default: // Q2
 		sheikh_rasheed(ch, count);
 		imran_khan(ch, count);
-		
+
 		break;
 	}
 }
@@ -1233,7 +1224,7 @@ void Bilawal(char ch, int count)
 					break;
 				}
 			default: // bilawal bhutto Q4
-			Bilawal(ch, count);
+				Bilawal(ch, count);
 				break;
 			}
 		default: // bilawal bhutto Q3
@@ -1242,7 +1233,7 @@ void Bilawal(char ch, int count)
 		}
 	default: // bilawal bhutto Q2
 		Bilawal(ch, count);
-		
+
 		break;
 	}
 }
@@ -2216,99 +2207,68 @@ void sheikh_rasheed(char ch, int count)
 														break;
 													}
 												default: // sheikh rasheed Q13
-													Bilawal(ch, count);
-													Altaf(ch, count);
 													imran_khan(ch, count);
-													shahbaz(ch, count);
 													sheikh_rasheed(ch, count);
 													break;
 												}
 											default: // sheikh rasheed Q12
-												Bilawal(ch, count);
-												Altaf(ch, count);
 												imran_khan(ch, count);
-												shahbaz(ch, count);
 												sheikh_rasheed(ch, count);
 												break;
 											}
 										default: // sheikh rasheed Q11
-											Bilawal(ch, count);
-											Altaf(ch, count);
 											imran_khan(ch, count);
-											shahbaz(ch, count);
 											sheikh_rasheed(ch, count);
 											break;
 										}
 									default: // sheikh rasheed Q10
-										Bilawal(ch, count);
-										Altaf(ch, count);
 										imran_khan(ch, count);
-										shahbaz(ch, count);
 										sheikh_rasheed(ch, count);
 										break;
 									}
 								default: // sheikh rasheed Q9
-									Bilawal(ch, count);
-									Altaf(ch, count);
 									imran_khan(ch, count);
-									shahbaz(ch, count);
 									sheikh_rasheed(ch, count);
+
 									break;
 								}
 							default: // sheikh rasheed Q8
-								Bilawal(ch, count);
-								Altaf(ch, count);
-								imran_khan(ch, count);
-								shahbaz(ch, count);
 								sheikh_rasheed(ch, count);
+
 								break;
 							}
 						default: // sheikh rasheed Q7
-							Bilawal(ch, count);
-							Altaf(ch, count);
-							imran_khan(ch, count);
-							shahbaz(ch, count);
 							sheikh_rasheed(ch, count);
+							imran_khan(ch, count);
 							break;
 						}
 					default: // sheikh rasheed Q6
-						Bilawal(ch, count);
-						Altaf(ch, count);
 						imran_khan(ch, count);
-						shahbaz(ch, count);
-						sheikh_rasheed(ch, count);
 						break;
 					}
 				default: // sheikh rasheed Q5
 					imran_khan(ch, count);
-					Bilawal(ch, count);
-					Altaf(ch, count);
-					shahbaz(ch, count);
 					sheikh_rasheed(ch, count);
+
 					break;
 				}
 			default: // sheikh rasheed Q4
-				shahbaz(ch, count);
-				Bilawal(ch, count);
-				Altaf(ch, count);
 				imran_khan(ch, count);
+				shahbaz(ch, count);
+
 				sheikh_rasheed(ch, count);
 				break;
 			}
 		default: // sheikh rasheed Q3
 			shahbaz(ch, count);
 			imran_khan(ch, count);
-			Bilawal(ch, count);
-			Altaf(ch, count);
 			sheikh_rasheed(ch, count);
-			imran_khan(ch, count);
+
 			break;
 		}
 	default: // sheikh rasheed Q2
 		imran_khan(ch, count);
 		shahbaz(ch, count);
-		Bilawal(ch, count);
-		Altaf(ch, count);
 		sheikh_rasheed(ch, count);
 		break;
 	}
