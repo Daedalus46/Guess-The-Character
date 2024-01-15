@@ -1637,7 +1637,7 @@ void imran_khan(char ch, int count)
 					}
 				default: // imran khan Q5
 					sheikh_rasheed(ch, count);
-						shahbaz(ch, count);
+					shahbaz(ch, count);
 					imran_khan(ch, count);
 					break;
 				}
@@ -1934,6 +1934,8 @@ void sheikh_rasheed(char ch, int count)
 		count++;
 		switch (ch)
 		{
+		case 'Y':
+		case 'y':
 		case 'N':
 		case 'n':
 		case 'D':
@@ -2109,13 +2111,14 @@ void sheikh_rasheed(char ch, int count)
 					}
 				default: // sheikh rasheed Q5
 					imran_khan(ch, count);
+					shahbaz(ch, count);
 					sheikh_rasheed(ch, count);
 
 					break;
 				}
 			default: // sheikh rasheed Q4
-				imran_khan(ch, count);
 				shahbaz(ch, count);
+				imran_khan(ch, count);
 
 				sheikh_rasheed(ch, count);
 				break;
