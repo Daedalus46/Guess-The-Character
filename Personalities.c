@@ -1,218 +1,7 @@
 #include<stdio.h>
+#include <stdlib.h>
 
-void nawaz_sharif(int ch,int count)
-{
-	printf("\nIs your character over 50 years?\n");
-	printf("\t Option: ");
-	scanf(" %c", &ch);
-	count++;
-	switch (ch)
-	{
-		case 'Y':
-		case 'y':
-		case 'D':
-		case 'd': // Nawaz Sharif Q2
-			printf("\n\tQuestion no %d", count);
-			printf("\nDoes your character have famous a brother?\n");
-			printf("\t Option: ");
-			scanf(" %c", &ch);
-			count++;
-			switch (ch)
-			{
-				case 'Y':
-				case 'y':
-				case 'D':
-				case 'd': // Nawaz Sharif Q3
-				printf("\n\tQuestion no %d", count);
-				printf("\nDoes your character have famous a Daughter?\n");
-				printf("\t Option: ");
-				scanf(" %c", &ch);
-				count++;
-				switch (ch)
-				{
-					case 'Y':
-					case 'y':
-					case 'D':
-					case 'd': // Nawaz Sharif Q4
-						printf("\n\tQuestion no %d", count);
-						printf("\nDoes your character's Daughter a politician?\n");
-						printf("\t Option: ");
-						scanf(" %c", &ch);
-						count++;
-						switch (ch)
-						{
-							case 'Y':
-							case 'y': // Nawaz Sharif Q5
-							case 'D':
-							case 'd':
-								printf("\n\tQuestion no %d", count);
-								printf("\nDoes your character introduced Projects?\n");
-								printf("\t Option: ");
-								scanf(" %c", &ch);
-								count++;
-								switch (ch)
-									{
-										case 'Y':
-										case 'y': // Nawaz Sharif Q6
-										case 'D':
-										case 'd':
-											printf("\n\tQuestion no %d", count);
-											printf("\nDid your character got hit with a shoe?\n");
-											printf("\t Option: ");
-											scanf(" %c", &ch);
-											count++;
-											switch (ch)
-											{
-												case 'Y':
-												case 'y':
-												case 'D':
-												case 'd': // Nawaz Sharif Q7
-													printf("\n\tQuestion no %d", count);
-													printf("\nDid your character become PM more than 1 times?\n");
-													printf("\t Option: ");
-													scanf(" %c", &ch);
-													count++;
-													switch (ch)
-													{
-														case 'Y':
-														case 'y':
-														case 'D':
-														case 'd': // Nawaz Sharif Q8
-															printf("\n\tQuestion no %d", count);
-															printf("\nIs your character half bald?\n");
-															printf("\t Option: ");
-															scanf(" %c", &ch);
-															count++;
-															switch (ch)
-															{
-																case 'Y':
-																case 'y':
-																case 'D':
-																case 'd': // Nawaz Sharif Q9
-																	printf("\n\tQuestion no %d", count);
-																	printf("\nDoes he have a palace??\n");
-																	printf("\t Option: ");
-																	scanf(" %c", &ch);
-																	count++;
-																	switch (ch)
-																	{
-																		case 'Y':
-																		case 'y': // Nawaz Sharif Q10
-																		case 'D':
-																		case 'd':
-																			printf("\n\tQuestion no %d", count);
-																			printf("\nDoes your character look like someone?\n");
-																			printf("\t Option: ");
-																			scanf(" %c", &ch);
-																			count++;
-																			switch (ch)
-																			{
-																				case 'Y':
-																				case 'y': // Nawaz Sharif Q11
-																				case 'D':
-																				case 'd':
-																					printf("\n\tQuestion no %d", count);
-																					printf("\nYour character got jailed?\n");
-																					printf("\t Option: ");
-																					scanf(" %c", &ch);
-																					count++;
-																					switch (ch)
-																					{
-																						case 'Y':
-																						case 'y':
-																						case 'D':
-																						case 'd': // Nawaz Sharif Q12
-																							printf("\n\tQuestion no %d", count);
-																							printf("\nDoes your character went for the medical abroad?\n");
-																							printf("\t Option: ");
-																							scanf(" %c", &ch);
-																							count++;
-																							switch (ch)
-																							{
-																								case 'Y':
-																								case 'y':
-																								case 'D':
-																								case 'd': // Nawaz Sharif Q13
-																									printf("\n\tQuestion no %d", count);
-																									printf("\nDid your character ran from the country?\n");
-																									printf("\t Option: ");
-																									scanf(" %c", &ch);
-																									count++;
-																									switch (ch)
-																									{
-																										case 'Y':
-																										case 'y':
-																										case 'D':
-																										case 'd': // Nawaz Sharif Q14
-																											printf("\n\tQuestion no %d", count);
-																											printf("\nIs your character's wife alive?\n");
-																											printf("\t Option: ");
-																											scanf(" %c", &ch);
-																											count++;
-																											switch (ch)
-																											{
-																												case 'Y':
-																												case 'y': // Nawaz Sharif Q15
-																												case 'D':
-																												case 'd':
-																													printf("\n\tQuestion no %d", count);
-																													printf("\nIs your character from GO NAWAZ GO era?\n");
-																													printf("\t Option: ");
-																													scanf(" %c", &ch);
-																													count++;
-																													switch (ch)
-																													{
-																														case 'Y':
-																														case 'y':
-																														case 'D':
-																														case 'd':
-																															printf("\nYour character is the one and only nawaz shariff!\n");
-																															printf("\n\tna sadiq hu na Ameen hu \n\tme krapshan ki masheen hu");
-																														}
-																													default: // Nawaz Sharif Q15
-																														break;
-																											}
-																										default: // Nawaz Sharif Q14
-																											break;
-																									}
-																								default: // Nawaz Sharif Q13
-																									break;
-																							}
-																						default: // Nawaz Sharif Q12
-																							break;
-																					}
-																				default: // Nawaz Sharif Q11
-																					break;
-																			}
-																		default: // Nawaz Sharif Q10
-																			break;
-																	}
-																default: // Nawaz Sharif Q9
-																	break;
-															}
-														default: // Nawaz Sharif Q8
-															break;
-													}
-												default: // Nawaz Sharif Q7
-													break;
-											}
-										default: // Nawaz Sharif Q6
-											break;
-									}
-								default: // Nawaz Sharif Q5
-									break;
-								}
-							default: // Nawaz Sharif Q4
-								break;
-							}
-						default: // Nawaz Sharif Q3
-							break;
-						}
-					default: // Nawaz Sharif Q2
-						break;
-					}
-					// Nawaz Sharif Q1
-}
+
 void maryam(char ch,int count)
 {
 	printf("\n\tQuestion no %d\n",count);  // maryam nawaz Q1
@@ -357,6 +146,8 @@ void maryam(char ch,int count)
                                                                                                                 case 'd': 
                                                                                                                     printf("You are thinking about maryam nawaz!\n"); 
                                                                                                                     printf("\n\tye bhool hain gulaab k koi asla to nhi\n\tPF mai backlog lage koi masla to nhi \n"); 
+																													system("pause");
+																													exit(0);
                                                                                                             }                                        
                                                                                                         default: // maryam nawaz Q14
                                                                                                         break;
@@ -567,7 +358,10 @@ void Altaf(char ch , int count)
 															case 'N':
 															case 'n':
 																printf("\nYour character is Altaf Hussain!\n");
-																printf("\nVote for Miss Samia Masood Awan  \nWarnaa bori tayyaar");
+																printf("\nVote for Miss Samia Masood Awan  \nWarnaa bori tayyaar\n");
+																PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\altaf.wav"),NULL,SND_ASYNC);
+																system("pause");
+																exit(0);
 															}
 														default:
 															break; // Q13
@@ -709,6 +503,8 @@ void Benazir(char ch,int count)
 																			case 'D':
 																			case 'd':	
 																				printf("\nYour character is the 1st women PM of Pakistan Benzair Bhutto!\n");
+																				system("pause");
+																				exit(0);
 																		}
 																	default: // benazir bhutto Q10
 																		break;						
@@ -901,7 +697,10 @@ void Bilawal(char ch,int count)
 																															case 'D':
 																															case 'd':
 																																printf("\nYour character is Bilawal Bhutto!\n");
-																																printf("\ntum to aik kanputli (statue) ho\ntumhari doren to PF hilaa raha hai");
+																																printf("\ntum to aik kanputli (statue) ho\ntumhari doren to PF hilaa raha hai\n");
+																																PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\bilawal.wav"),NULL,SND_ASYNC);
+																																system("pause");
+																																exit(0);
 																														}
 																													default://bilawal bhutto Q16
 																														break;
@@ -1054,7 +853,9 @@ void firdous(char ch , int count)
 														case 'D':
 														case 'd':
 															printf("\nYour character is firdous ashiq awan!\n");
-															printf("\ntum to aik kanputli (statue) ho\ntumhari doren to PF hilaa raha hai6");
+															printf("\ntum to aik kanputli (statue) ho\ntumhari doren to PF hilaa raha hai\n");
+															system("pause");
+															exit(0);
 														}
 													default: // firdous ashiq Q10
 														break;
@@ -1126,8 +927,6 @@ void imran_khan(char ch,int count)
         switch(ch) {
         case 'Y':
         case 'y':
-        case 'D':
-        case 'd':
             printf("\n\tQuestion no %d\n",count); // imran khan Q3
             printf("Is charachter a bold man?\n");
             printf("\t Option: ");   
@@ -1173,13 +972,18 @@ void imran_khan(char ch,int count)
                             printf("\t Option: ");   
                             scanf(" %c", &ch);
                             count++;
-                            switch(ch) {
-                            case 'Y': 
-                            case 'y':
-                            case 'D':
+                            switch(ch){
+							case 'D':
                             case 'd':
+							case 'N':
+							case 'n':
+							case 'Y':
+							case 'y':
+							PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\ghabrana_nhi.wav"),NULL,SND_ASYNC);
+							printf("apne gabrana nhi hai.\n");
+							printf("\n");			
+							PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\akinator_theme (1).wav"),NULL,SND_ASYNC);		
                                 printf("\n\tQuestion no %d\n",count); // imran khan Q8
-                                printf("apne gabrana nhi hai.\n");
                                 printf("\nIs ur character patriotic\n");
                                 printf("\t Option: ");   
                                 scanf(" %c", &ch);
@@ -1237,10 +1041,15 @@ void imran_khan(char ch,int count)
                                                     switch(ch) {
                                                     case 'Y': 
                                                     case 'y':
-                                                    case 'D':
-                                                    case 'd':
+													case 'N':
+													case 'n':
+													case 'D':
+													case 'd':
+													PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\ghabrana_nhi.wav"),NULL,SND_ASYNC);
+													printf("apne gabrana nhi hai.\n");
+													printf("\n");
+													PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\akinator_theme (1).wav"),NULL,SND_ASYNC);		
                                                         printf("\n\tQuestion no %d\n",count); // imran khan Q14
-                                                        printf("\napne gabrana nhi hai\n");
                                                         printf("Is your character famous for saying Absolutely not.\n");
                                                         printf("\t Option: "); 
                                                         scanf(" %c", &ch);
@@ -1272,7 +1081,10 @@ void imran_khan(char ch,int count)
                                                                 case 'd':
                                                                     printf("You are thinking about imran khan!\n");                                        
                                                                     printf("\n\tHame to pf ne loota\n\tfit mai kahan dam tha\n\tGPA bhi wahan giri\n\tjahan AP mai number kam thay\n");                                        
-                                                                default:
+																	PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\imran.wav"),NULL,SND_ASYNC);
+																	system("pause");
+																	exit(0);
+																default:
                                                                 break;
                                                                 }                                        
                                                             default: // imran khan Q16
@@ -1299,7 +1111,8 @@ void imran_khan(char ch,int count)
                                 default: // imran khan Q9
                                 break;
                                 }                                        
-                            default: // imran khan Q8
+                            default:
+							sheikh_rasheed(ch,count); // imran khan Q8
                             break;
                             }                                        
                         default: // imran khan Q7
@@ -1318,7 +1131,8 @@ void imran_khan(char ch,int count)
         break;
         }
     default: // imran khan Q2
-    break;
+    sheikh_rasheed(ch,count);
+	break;
     }
 }//imran khan End
 void shahbaz(char ch , int count)
@@ -1512,6 +1326,9 @@ void shahbaz(char ch , int count)
 																	case 'd':
 																		printf("\nYour character is Shahbaz Sharif!\n");
 																		printf("\n Mei Programming Prhne nhi aya \nlekin CS k lye Majboori hei\n");
+																		PlaySound(TEXT("C:\\c++\\Projectc\\ProjectRepository\\Guess-The-Personality\\showbaz.wav"),NULL,SND_ASYNC);
+																		system("pause");
+																		exit(0);
 																	}
 																default:
 																	break;
@@ -1689,7 +1506,9 @@ void sheikh_rasheed(char ch,int count)
                                                     case 'D':
                                                     case 'd':
                                                         printf("\nYou are thinking about sheikh rasheed\n");
-                                                        printf("\n\tSheikhu Didnt choose thug life ,\n\t thug life choose him");                                        
+                                                        printf("\n\tSheikhu Didnt choose thug life ,\n\t thug life choose him");
+														system("pause");
+														exit(0);                                        
                                                     default:
                                                     break;
                                                     }                                        

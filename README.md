@@ -1,5 +1,5 @@
-# Guessing The Character
-We are guessing the limited characters which is a backdraw of this game. Only the famous politicians of Pakistan. This game is made only for fun and not to criticise anyone.
+
+# Guessing The Character Project
 
 ## Module 1: Introduction
 
@@ -35,7 +35,7 @@ An intuitive and user-friendly interface that enhances the overall user experien
 ### 2.5 User Sound Experience 
 
 The Theme Sound of Akinator is added which will enhance the user experience.  
- 
+
 ## Module 3: Working
 
 ### 3.1 User-Defined Headers
@@ -55,6 +55,12 @@ Used loops to design our game borders...
 We defined the personalities of each character in functions and made it a header file so we can use it anywhere in our main function...
 
 ## Limitations
+
+- The game includes limited personalities. It only includes the famous politicians of Pakistan.
+- It might have errors.
+- The code is too long.
+Team Project " Guess The Personality "
+
 - Containing Personalities
 1) Nawaz Sharif
 2) Shahbaz Sharif
@@ -64,12 +70,14 @@ We defined the personalities of each character in functions and made it a header
 6) Bilawal Bhutto
 7) Sheikh Rasheed
 8) Firdous Ashiq 
-9) Imran Khan 
+9) Imran Khan
 - The game includes limited personalities. It only includes the famous politicians of Pakistan.
 - It might have errors.
 - The code is too long.
+  
  
-Team Project" Guess The Personality "
+Team Project " Guess The Personality ".
+
 
 Team Members 
 1) Dawood
