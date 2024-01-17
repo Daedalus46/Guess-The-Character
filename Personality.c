@@ -2063,7 +2063,7 @@ void sheikh_rasheed(char ch, int count)
 													case 'd':
 														printf("\n\t\t\t\tYou are thinking about sheikh rasheed\n");
 														printf("\n\t\t\tSheikhu Didnt choose thug life ,\n\t\t\t thug life choose him\n");
-														PlaySound(TEXT("gSheikh.wav"), NULL, SND_ASYNC);
+														PlaySound(TEXT("Sheikh.wav"), NULL, SND_ASYNC);
 														system("pause");
 														exit(0);
 													default:
